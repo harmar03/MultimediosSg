@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae - Tu Nombre</title>
+    <link rel="stylesheet" href="index.css">
     
 </head>
 <body>
@@ -12,39 +13,85 @@
             <h1>Harold Martin Barquero Membreño</h1>
             <p>Dirección: Barrio La Arena, Liberia, Costa Rica</p>
             <p>Teléfono: +506 85569713 | Email: martincamareno@gmail.com</p>
-            <p>LinkedIn: linkedin.com/in/haroldmartinbarquero | GitHub: github.com/haroldmartinbarquero</p>
+            <p>LinkedIn: linkedin.com/in/haroldmartinbarquero | GitHub: https://github.com/harmar03</p>
         </header>
         <main>
-            <section id="resumen">
+            <section class="resumen">
                 <h2>Resumen Profesional</h2>
                 <p> Estudiante Universitario full stack de la carrera de Informatica Empresarial</p>
             </section>
-            <section id="experiencia">
+            <section class="experiencia">
                 <h2>Experiencia Laboral</h2>
                 <article>
-                    <h3>no hay</h3>
+                    <p> Trabajo en proyectos universitarios</p>
                 </article>
             
                     </ul>
                 </article>
             </section>
-            <section id="educacion">
+            <section class="educacion">
                 <h2>Educación</h2>
                 <article>
                     <h3>Bachiller en Informática Empresarial</h3>
                     <p><strong>Universidad De Costa Rica</strong> | Liberia, Costa Rica | 2021 - 2027</p>
                 </article>
             </section>
-            <section id="habilidades">
+            <section class="habilidades">
                 <h2>Habilidades Técnicas</h2>
-                <ul>
-                    <li>Lenguajes: JavaScript, Python, HTML, CSS</li>
-                    <li>Frameworks: React, Node.js, Express</li>
-                    <li>Herramientas: Git, Docker, VS Code</li>
-                    <li>Bases de Datos: MongoDB, MySQL</li>
-                </ul>
+                <h3>Lenguajes</h3>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <h3>Frameworks</h3>
+                <div class="skill">
+                    <span>React</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Node.js</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Express</span>
+                    <div class="progress-bar"><div class="progress" style="width: 65%"></div></div>
+                </div>
+                <h3>Herramientas</h3>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Docker</span>
+                    <div class="progress-bar"><div class="progress" style="width: 60%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>VS Code</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <h3>Bases de Datos</h3>
+                <div class="skill">
+                    <span>MongoDB</span>
+                    <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>MySQL</span>
+                    <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+                </div>
             </section>
-              <section id="habilidades Blandas">
+              <section class="habilidades-blandas">
                 <h2>Habilidades Blandas</h2>
                 <ul>
                     <li>Comunicación efectiva</li>
@@ -55,10 +102,17 @@
                       <li>Adaptabilidad</li>
                 </ul>
             </section>
-                    <li>Bases de Datos: MongoDB, MySQL</li>
-                </ul>
+            <section class="proyectos">
+                <h2>Proyectos Personales</h2>
+                <article>
+                    <h3>Sistema de Recursos Humanos (HR) - Desarrollo Fullstack</h3>
+                    <p><strong>Tecnologías utilizadas:</strong> MySQL, Laravel (PHP), React + Vite, HTML, CSS.</p>
+                    <p><strong>Arquitectura:</strong> API REST con backend en Laravel separado del frontend en React, permitiendo escalabilidad y mantenibilidad.</p>
+                    <p><strong>Trabajo en equipo:</strong> Colaboré en un equipo utilizando Git, con más de 190 commits, siguiendo buenas prácticas de versionado.</p>
+                    <p><strong>Funcionalidades desarrolladas:</strong> Seeders para datos iniciales, rutas API optimizadas, sistema de correos automáticos, autenticación segura con JWT.</p>
+                </article>
             </section>
-            <section id="idiomas">
+            <section class="idiomas">
                 <h2>Idiomas</h2>
                 <ul>
                     <li>Español: Nativo</li>
