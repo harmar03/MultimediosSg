@@ -85,6 +85,19 @@ li {
     transition: width 0.5s ease;
 }
 
+.js { width: 80%; }
+.php { width: 70%; }
+.html { width: 90%; }
+.css { width: 85%; }
+.react { width: 75%; }
+.nodejs { width: 70%; }
+.express { width: 65%; }
+.git { width: 85%; }
+.docker { width: 60%; }
+.vscode { width: 90%; }
+.mongodb { width: 70%; }
+.mysql { width: 75%; }
+
 footer {
     text-align: center;
     margin-top: 40px;
